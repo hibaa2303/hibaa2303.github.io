@@ -251,6 +251,16 @@ section{padding:6.5rem 2rem;}
   border:1.5px solid var(--lav-light);background:var(--lav-pale);
   transition:all 0.22s;align-self:flex-start;
 }
+.proj-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1.1rem;
+}
+
+.proj-actions .proj-link {
+  margin-top: 0;
+}
 .proj-link:hover{background:var(--lavender);color:#fff;border-color:var(--lavender);transform:translateY(-2px);}
 
 /* ── CONTACT ── */
@@ -471,7 +481,10 @@ footer span{color:var(--lavender);}
         <div class="proj-name">Quickcure — Online Healthcare App</div>
         <p class="proj-desc">A responsive healthcare web application inspired by Tata 1mg. Features medicine search, cart functionality, and category browsing with dynamic React components and RESTful API-backed data management.</p>
         <div class="proj-stack"><span class="stag">MongoDB</span><span class="stag">Express.js</span><span class="stag">React.js</span><span class="stag">Node.js</span><span class="stag">REST API</span></div>
-        <a href="https://github.com/hibaa2303/quickcuree" target="_blank" class="proj-link">⭐ View on GitHub →</a>
+        <div class="proj-actions">
+         <a href="https://quickcure-a.netlify.app" target="_blank" rel="noopener noreferrer" class="proj-link">↗ Live Demo</a>
+         <a href="https://github.com/hibaa2303/quickcuree" target="_blank" rel="noopener noreferrer" class="proj-link">⭐ View on GitHub →</a>
+        </div>
       </div>
     </div>
   </div>
